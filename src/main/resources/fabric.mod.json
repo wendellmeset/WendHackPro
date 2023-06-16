@@ -1,18 +1,21 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "wendhack",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "WendHack",
+	"description": "This is a 1.20 mod designed to be a hacked client!",
 	"authors": [
-		"Me!"
+		"Me!",
+		"Wendellmeset",
+		"IamAppley",
+		"Not You (Probably not)!"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/wendhack/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -23,9 +26,9 @@
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"wendhack.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "wendhack.client.mixins.json",
 			"environment": "client"
 		}
 	],
